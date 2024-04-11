@@ -1,0 +1,232 @@
+[
+  {
+    "objectID": "12_webpage.html",
+    "href": "12_webpage.html",
+    "title": "12: Webpage",
+    "section": "",
+    "text": "https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#creation-web-page-to-communicate-your-project-methodology-analysis. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: Communicating results",
+      "12: Webpage"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Team",
+    "section": "",
+    "text": "Use this website to summarize contributions to your Data-Wrangling group project. Publish this website on Github Pages so that instructors and TAs can easily see your contributions.\nSee https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#how-to-include-pythonnotebooks-files-in-your-qmd-pages on how to include python files, notebook, notebook cells and outputs inside a quart website.\n\nTeam members\nDescribe here each group member (netid and name).\n\nab123, John Doe\nab124, John Doe2",
+    "crumbs": [
+      "Team"
+    ]
+  },
+  {
+    "objectID": "04_enrichment.html",
+    "href": "04_enrichment.html",
+    "title": "4: Data enrichment",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-enrichment. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: enrichment/cleaning",
+      "4: Data enrichment"
+    ]
+  },
+  {
+    "objectID": "20_reproducibility.html",
+    "href": "20_reproducibility.html",
+    "title": "20: Reproducibility",
+    "section": "",
+    "text": "https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#provide-instructions-on-how-to-reproduce-the-project. Describe your contributions below.",
+    "crumbs": [
+      "Project and software dev",
+      "20: Reproducibility"
+    ]
+  },
+  {
+    "objectID": "11_visualizations.html",
+    "href": "11_visualizations.html",
+    "title": "11: Visualizations",
+    "section": "",
+    "text": "https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#around-4-6-or-more-visualizations-related-to-the-dataset Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: Analysis",
+      "11: Visualizations"
+    ]
+  },
+  {
+    "objectID": "08_backup_external_service.html",
+    "href": "08_backup_external_service.html",
+    "title": "8: External services",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#backup-of-the-raw-and-tidied-data-on-external-storage-service. Describe your contributions below.",
+    "crumbs": [
+      "Backups",
+      "8: External services"
+    ]
+  },
+  {
+    "objectID": "05_cleaning.html",
+    "href": "05_cleaning.html",
+    "title": "5: Data cleaning",
+    "section": "",
+    "text": "About this site See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-cleaning. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: enrichment/cleaning",
+      "5: Data cleaning"
+    ]
+  },
+  {
+    "objectID": "01_document_sources.html",
+    "href": "01_document_sources.html",
+    "title": "1: Data Sources",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#documenting-data-sources for information. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: retrieval",
+      "1: Data Sources"
+    ]
+  },
+  {
+    "objectID": "16_tests.html",
+    "href": "16_tests.html",
+    "title": "16: Tests",
+    "section": "",
+    "text": "https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#tests-using-pytest. Describe your contributions below.",
+    "crumbs": [
+      "Project and software dev",
+      "16: Tests"
+    ]
+  },
+  {
+    "objectID": "15_commit.html",
+    "href": "15_commit.html",
+    "title": "15: Git commit history",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#clear-commit-history. Describe your contributions below.",
+    "crumbs": [
+      "Project and software dev",
+      "15: Git commit history"
+    ]
+  },
+  {
+    "objectID": "07_format_conversion.html",
+    "href": "07_format_conversion.html",
+    "title": "7: Backup in several formats",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#store-your-data-in-at-least-3-different-formats-e.g.-sqlite3-csv-excel.\nDescribe your contributions below.",
+    "crumbs": [
+      "Backups",
+      "7: Backup in several formats"
+    ]
+  },
+  {
+    "objectID": "19_python_package.html",
+    "href": "19_python_package.html",
+    "title": "19: python package (optional)",
+    "section": "",
+    "text": "https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#optional-build-your-own-external-python-package-and-use-this-package-as-a-dependency-in-the-main-project. Describe your contributions below.",
+    "crumbs": [
+      "Project and software dev",
+      "19: python package (optional)"
+    ]
+  },
+  {
+    "objectID": "17_continuous_testing.html",
+    "href": "17_continuous_testing.html",
+    "title": "17: cont. testing",
+    "section": "",
+    "text": "https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#continuous-testing. Describe your contributions below.",
+    "crumbs": [
+      "Project and software dev",
+      "17: cont. testing"
+    ]
+  },
+  {
+    "objectID": "03_raw_to_tabular.html",
+    "href": "03_raw_to_tabular.html",
+    "title": "3: From raw to tabular data",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#from-raw-data-to-tidy-tabular-data-in-pandas. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: retrieval",
+      "3: From raw to tabular data"
+    ]
+  },
+  {
+    "objectID": "18_continuous_integration.html",
+    "href": "18_continuous_integration.html",
+    "title": "18: cont. integration",
+    "section": "",
+    "text": "https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#continuous-integration. Describe your contributions below.",
+    "crumbs": [
+      "Project and software dev",
+      "18: cont. integration"
+    ]
+  },
+  {
+    "objectID": "09_summary_stats.html",
+    "href": "09_summary_stats.html",
+    "title": "9: Summary statistics",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#computation-of-meaningful-summary-statistics. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: Analysis",
+      "9: Summary statistics"
+    ]
+  },
+  {
+    "objectID": "02_automated_retrieval.html",
+    "href": "02_automated_retrieval.html",
+    "title": "2: Retrieval of raw data",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#retrieval-of-the-raw-data for information. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: retrieval",
+      "2: Retrieval of raw data"
+    ]
+  },
+  {
+    "objectID": "10_statistical_ML.html",
+    "href": "10_statistical_ML.html",
+    "title": "10: Statistical analisys",
+    "section": "",
+    "text": "https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-analysis Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: Analysis",
+      "10: Statistical analisys"
+    ]
+  },
+  {
+    "objectID": "14_poster.html",
+    "href": "14_poster.html",
+    "title": "14: Poster",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#poster. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: Communicating results",
+      "14: Poster"
+    ]
+  },
+  {
+    "objectID": "13_interactive.html",
+    "href": "13_interactive.html",
+    "title": "13: interactivity",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#interactive-data-widget. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: Communicating results",
+      "13: interactivity"
+    ]
+  },
+  {
+    "objectID": "06_test_quality.html",
+    "href": "06_test_quality.html",
+    "title": "6: Test data quality",
+    "section": "",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#tests-for-data-quality. Describe your contributions below.",
+    "crumbs": [
+      "Data Wrangling: enrichment/cleaning",
+      "6: Test data quality"
+    ]
+  }
+]
