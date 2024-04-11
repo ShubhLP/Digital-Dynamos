@@ -1,0 +1,8 @@
+---
+title: "10: Statistical analisys"
+---
+
+<https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-analysis>
+Describe your contributions below.
+
+* * *

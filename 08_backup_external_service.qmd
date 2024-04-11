@@ -1,0 +1,8 @@
+---
+title: "8: External services"
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#backup-of-the-raw-and-tidied-data-on-external-storage-service>.
+Describe your contributions below.
+
+* * *

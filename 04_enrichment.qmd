@@ -1,0 +1,8 @@
+---
+title: "4: Data enrichment"
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-enrichment>.
+Describe your contributions below.
+
+* * *

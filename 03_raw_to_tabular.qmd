@@ -1,0 +1,8 @@
+---
+title: "3: From raw to tabular data"
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#from-raw-data-to-tidy-tabular-data-in-pandas>.
+Describe your contributions below.
+
+* * *

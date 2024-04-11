@@ -1,0 +1,8 @@
+---
+title: "9: Summary statistics"
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#computation-of-meaningful-summary-statistics>.
+Describe your contributions below.
+
+* * *

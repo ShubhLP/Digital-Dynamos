@@ -1,0 +1,8 @@
+---
+title: "6: Test data quality"
+---
+
+See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#tests-for-data-quality>.
+Describe your contributions below.
+
+* * *
