@@ -5,4 +5,5 @@ title: "4: Data enrichment"
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-enrichment>.
 Describe your contributions below.
 
+We are trying to scrape the data from the website but due to security reasons, no company is allowing to scrape the data. We plan to calculative columns to the dataframe.
 * * *

@@ -5,4 +5,5 @@ title: "9: Summary statistics"
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#computation-of-meaningful-summary-statistics>.
 Describe your contributions below.
 
+We will calculate the mean, median and percentage of profit, costs of the product. We wil also calculate teh discount percentage of the products
 * * *

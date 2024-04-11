@@ -5,4 +5,6 @@ title: "3: From raw to tabular data"
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#from-raw-data-to-tidy-tabular-data-in-pandas>.
 Describe your contributions below.
 
+The dataset contains 3 csv files, which were fulfilment, orders and shipment which are joined on Product Name.
+The 3 csv files are combined into one and a pandas dataframe is created
 * * *

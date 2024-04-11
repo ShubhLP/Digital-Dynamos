@@ -6,4 +6,5 @@ About this site
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-cleaning>. 
 Describe your contributions below.
 
+We will clean the daatset by handling missing values in the dataset if found.We will also remove unwanted characters in the column headings as found
 * * *

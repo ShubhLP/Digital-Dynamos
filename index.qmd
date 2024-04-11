@@ -10,5 +10,6 @@ See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#how-t
 
 Describe here each group member (netid and name).
 
-- ab123, John Doe
-- ab124, John Doe2
+- bra43, Burlyn Andall-Blake
+- mm3646, Mehak Malik
+- sp2484, Shubham Patil
