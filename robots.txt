@@ -1,1 +1,1 @@
-Sitemap: https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/sitemap.xml
+Sitemap: https://stats-at-Rutgers.github.io/Digital-Dynamos/sitemap.xml

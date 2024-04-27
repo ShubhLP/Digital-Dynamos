@@ -1,87 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/03_raw_to_tabular.html</loc>
-    <lastmod>2024-04-11T02:40:38.607Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/index.html</loc>
+    <lastmod>2024-04-23T06:38:52.021Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/09_summary_stats.html</loc>
-    <lastmod>2024-04-11T02:41:20.950Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/csv/DW_SAMPLE1.html</loc>
+    <lastmod>2024-04-23T06:38:49.449Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/20_reproducibility.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/20_reproducibility.html</loc>
+    <lastmod>2024-04-23T06:38:49.360Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/02_automated_retrieval.html</loc>
-    <lastmod>2024-04-11T02:40:27.366Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/18_continuous_integration.html</loc>
+    <lastmod>2024-04-23T06:38:49.358Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/15_commit.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/16_tests.html</loc>
+    <lastmod>2024-04-23T06:38:49.357Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/13_interactive.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/14_poster.html</loc>
+    <lastmod>2024-04-23T06:38:49.354Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/06_test_quality.html</loc>
-    <lastmod>2024-04-11T02:38:12.011Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/12_webpage.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/18_continuous_integration.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/10_statistical_ML.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/index.html</loc>
-    <lastmod>2024-04-11T02:42:00.870Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/08_backup_external_service.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/14_poster.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/06_test_quality.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/19_python_package.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/04_enrichment.html</loc>
+    <lastmod>2024-04-23T06:38:49.339Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/04_enrichment.html</loc>
-    <lastmod>2024-04-11T02:40:54.465Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/02_automated_retrieval.html</loc>
+    <lastmod>2024-04-23T06:38:49.336Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/12_webpage.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/01_document_sources.html</loc>
+    <lastmod>2024-04-23T06:38:49.334Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/07_format_conversion.html</loc>
-    <lastmod>2024-04-11T02:38:12.011Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/03_raw_to_tabular.html</loc>
+    <lastmod>2024-04-23T06:38:49.338Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/16_tests.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/05_cleaning.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/08_backup_external_service.html</loc>
-    <lastmod>2024-04-11T02:38:12.011Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/07_format_conversion.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/01_document_sources.html</loc>
-    <lastmod>2024-04-11T02:40:07.440Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/09_summary_stats.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/11_visualizations.html</loc>
-    <lastmod>2024-04-11T02:41:32.480Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/11_visualizations.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/17_continuous_testing.html</loc>
-    <lastmod>2024-04-11T02:38:12.012Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/13_interactive.html</loc>
+    <lastmod>2024-04-23T06:38:49.345Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/05_cleaning.html</loc>
-    <lastmod>2024-04-11T02:41:07.850Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/15_commit.html</loc>
+    <lastmod>2024-04-23T06:38:49.355Z</lastmod>
   </url>
   <url>
-    <loc>https://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@github.com/stats-at-Rutgers/group-project-team-sca.git/10_statistical_ML.html</loc>
-    <lastmod>2024-04-11T02:38:12.011Z</lastmod>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/17_continuous_testing.html</loc>
+    <lastmod>2024-04-23T06:38:49.357Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/19_python_package.html</loc>
+    <lastmod>2024-04-23T06:38:49.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/COVID_DW.html</loc>
+    <lastmod>2024-04-23T06:38:49.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats-at-Rutgers.github.io/Digital-Dynamos/DataCo_Supply_Chain_Analytics.html</loc>
+    <lastmod>2024-04-25T16:49:30.379Z</lastmod>
   </url>
 </urlset>
