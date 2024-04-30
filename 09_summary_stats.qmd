@@ -1,9 +1,23 @@
 ---
-title: "9: Summary statistics"
+title: '9: Summary statistics'
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
 ---
 
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#computation-of-meaningful-summary-statistics>.
 Describe your contributions below.
 
-We will calculate the mean, median and percentage of profit, costs of the product. We wil also calculate teh discount percentage of the products
+The mean, median and percentage of profit, costs of the product were calculated. In addition, the discount percentage of the products was calculated. This was done to get a better understanding of the data and help with brainstorming what questions can be answered by the dataset.
+
+
+Calculations can be found in DW_SAMPLE1.ipynb
 * * *
