@@ -1,10 +1,21 @@
 ---
-title: "5: Data cleaning"
+title: '5: Data cleaning'
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
 ---
 
 About this site
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-cleaning>. 
 Describe your contributions below.
 
-We will clean the daatset by handling missing values in the dataset if found.We will also remove unwanted characters in the column headings as found
+The dataset was cleaned by handling missing values in the dataset, if found. Unwanted characters were removed in the column headings, if found.
 * * *
