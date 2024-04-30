@@ -1,8 +1,20 @@
 ---
-title: "6: Test data quality"
+title: '6: Test data quality'
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
 ---
 
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#tests-for-data-quality>.
 Describe your contributions below.
 
+The code was tested by all the team members for any bugs, inaccuracies, and issues with the datasets.
 * * *
