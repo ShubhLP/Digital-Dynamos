@@ -1,10 +1,21 @@
 ---
-title: "3: From raw to tabular data"
+title: '3: From raw to tabular data'
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
 ---
 
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#from-raw-data-to-tidy-tabular-data-in-pandas>.
 Describe your contributions below.
 
-The dataset contains 3 csv files, which were fulfilment, orders and shipment which are joined on Product Name.
-The 3 csv files are combined into one and a pandas dataframe is created
+The dataset contains 3 csv files, which are named inventory, fulfilment, orders and shipment. The tables are joined on Product Name columns.
+The 3 csv files are combined into one and a pandas dataframe "merged_df" is created. The project file is named "DW_SAMPLE1.ipynb"
 * * *
