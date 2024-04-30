@@ -1,9 +1,20 @@
 ---
-title: "4: Data enrichment"
+title: '4: Data enrichment'
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
 ---
 
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-enrichment>.
 Describe your contributions below.
 
-We are trying to scrape the data from the website but due to security reasons, no company is allowing to scrape the data. We plan to calculative columns to the dataframe.
+Efforts were made to scrape the data from the website. However, due to security reasons, the company does not allow to scrape the data. To combat this issue, necessary csv files were downloaded from the site and loaded into jupyter notebook via Python dataframes. Calculative columns wered added to the dataframe.
 * * *
