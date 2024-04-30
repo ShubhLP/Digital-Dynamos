@@ -120,7 +120,7 @@
     "href": "02_automated_retrieval.html",
     "title": "2: Retrieval of raw data",
     "section": "",
-    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#retrieval-of-the-raw-data for information. Describe your contributions below.\nThe data source is Kaggle. * * *",
+    "text": "See https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#retrieval-of-the-raw-data for information. Describe your contributions below.\nThe data source is Kaggle (https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis?select=DataCoSupplyChainDataset.csv). * * *",
     "crumbs": [
       "Data Wrangling: retrieval",
       "2: Retrieval of raw data"
