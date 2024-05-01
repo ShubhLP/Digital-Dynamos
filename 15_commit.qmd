@@ -39,3 +39,39 @@ plt.ylabel('Number of Commits')
 plt.xticks(rotation=90)
 plt.show()
 ```
+
+```{python}
+import matplotlib.dates as mdates
+
+repo = Repo("C:/Users/runad/Downloads/Digital-Dynamos")
+
+commits = list(repo.iter_commits('main'))
+
+dates = [commit.committed_datetime for commit in commits]
+authors = [commit.author.name for commit in commits]
+messages = [commit.message for commit in commits]
+tags = [tag for tag in repo.tags]
+
+commit_data = collections.defaultdict(list)
+
+for commit in commits:
+    commit_data[commit.author.name].append(commit.committed_datetime)
+
+fig, ax = plt.subplots()
+
+for author, dates in commit_data.items():
+    ax.plot_date(dates, [author]*len(dates), 'o', linestyle='none')
+
+ax.xaxis.set_major_locator(mdates.YearLocator())
+ax.xaxis.set_minor_locator(mdates.MonthLocator())
+ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+
+plt.title('Commit History by Author')
+plt.xlabel('Date')
+plt.ylabel('Author')
+plt.show()
+
+#print(dates)
+for i, message in enumerate(messages):
+    print(f"Author {i+1}: {authors[i]} - Commit {i+1}: {message}")
+```
