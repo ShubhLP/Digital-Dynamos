@@ -1,8 +1,41 @@
 ---
-title: "15: Git commit history"
+title: '15: Git commit history'
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
 ---
 
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#clear-commit-history>.
 Describe your contributions below.
 
 * * *
+
+```{python}
+import matplotlib.pyplot as plt
+from git import Repo
+import collections
+
+repo = Repo("C:/Users/runad/Downloads/Digital-Dynamos")
+
+commits = list(repo.iter_commits('main'))
+
+commit_counts = collections.Counter(commit.author.name for commit in commits)
+
+names = list(commit_counts.keys())
+counts = list(commit_counts.values())
+
+plt.bar(names, counts)
+plt.title('Commit Counts by Author')
+plt.xlabel('Author')
+plt.ylabel('Number of Commits')
+plt.xticks(rotation=90)
+plt.show()
+```
