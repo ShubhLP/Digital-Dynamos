@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -230,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./10_statistical_ML.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10: Statistical analisys</span></a>
+ <span class="menu-text">10: Statistical Analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -349,6 +383,133 @@ ul.task-list li input[type="checkbox"] {
 
 <p>See <a href="https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#clear-commit-history" class="uri">https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#clear-commit-history</a>. Describe your contributions below.</p>
 <hr>
+<div id="3f384309" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> git <span class="im">import</span> Repo</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> collections</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>repo <span class="op">=</span> Repo(<span class="st">"C:/Users/runad/Downloads/Digital-Dynamos"</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>commits <span class="op">=</span> <span class="bu">list</span>(repo.iter_commits(<span class="st">'main'</span>))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>commit_counts <span class="op">=</span> collections.Counter(commit.author.name <span class="cf">for</span> commit <span class="kw">in</span> commits)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>names <span class="op">=</span> <span class="bu">list</span>(commit_counts.keys())</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>counts <span class="op">=</span> <span class="bu">list</span>(commit_counts.values())</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>plt.bar(names, counts)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Commit Counts by Author'</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Author'</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Number of Commits'</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="15_commit_files/figure-html/cell-2-output-1.png" width="597" height="576" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="6ecce2f3" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.dates <span class="im">as</span> mdates</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>repo <span class="op">=</span> Repo(<span class="st">"C:/Users/runad/Downloads/Digital-Dynamos"</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>commits <span class="op">=</span> <span class="bu">list</span>(repo.iter_commits(<span class="st">'main'</span>))</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>dates <span class="op">=</span> [commit.committed_datetime <span class="cf">for</span> commit <span class="kw">in</span> commits]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>authors <span class="op">=</span> [commit.author.name <span class="cf">for</span> commit <span class="kw">in</span> commits]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>messages <span class="op">=</span> [commit.message <span class="cf">for</span> commit <span class="kw">in</span> commits]</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>tags <span class="op">=</span> [tag <span class="cf">for</span> tag <span class="kw">in</span> repo.tags]</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>commit_data <span class="op">=</span> collections.defaultdict(<span class="bu">list</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> commit <span class="kw">in</span> commits:</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    commit_data[commit.author.name].append(commit.committed_datetime)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> author, dates <span class="kw">in</span> commit_data.items():</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    ax.plot_date(dates, [author]<span class="op">*</span><span class="bu">len</span>(dates), <span class="st">'o'</span>, linestyle<span class="op">=</span><span class="st">'none'</span>)</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>ax.xaxis.set_major_locator(mdates.YearLocator())</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>ax.xaxis.set_minor_locator(mdates.MonthLocator())</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>ax.xaxis.set_major_formatter(mdates.DateFormatter(<span class="st">'%Y'</span>))</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Commit History by Author'</span>)</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Date'</span>)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Author'</span>)</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="co">#print(dates)</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, message <span class="kw">in</span> <span class="bu">enumerate</span>(messages):</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Author </span><span class="sc">{</span>i<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>authors[i]<span class="sc">}</span><span class="ss"> - Commit </span><span class="sc">{</span>i<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>message<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="15_commit_files/figure-html/cell-3-output-1.png" width="715" height="427" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Author 1: BerlinA-B - Commit 1: added another commit graph to page 15
+
+Author 2: BerlinA-B - Commit 2: update page 20
+
+Author 3: BerlinA-B - Commit 3: update page 15
+
+Author 4: BerlinA-B - Commit 4: update page 13
+
+Author 5: BerlinA-B - Commit 5: update page 12
+
+Author 6: BerlinA-B - Commit 6: update page 11
+
+Author 7: BerlinA-B - Commit 7: update page 10 and code was added to DW_SAMPLE1
+
+Author 8: BerlinA-B - Commit 8: update page 9
+
+Author 9: BerlinA-B - Commit 9: update page 6
+
+Author 10: BerlinA-B - Commit 10: update page 5
+
+Author 11: BerlinA-B - Commit 11: update page 4
+
+Author 12: BerlinA-B - Commit 12: added DW_SAMPLE1.ipynb to main folder
+
+Author 13: BerlinA-B - Commit 13: update page 3 and updated readme
+
+Author 14: BerlinA-B - Commit 14: update page 2
+
+Author 15: BerlinA-B - Commit 15: update page 1
+
+Author 16: BerlinA-B - Commit 16: cover date column in tokenized df to datetime
+
+Author 17: BerlinA-B - Commit 17: removed visual #7
+
+Author 18: Shubham Patil - Commit 18: DataCo_Supply_Chain_Analytics.ipynb updated
+
+Author 19: Prof - Commit 19: covid substitue project idea
+
+Author 20: Shubham Patil - Commit 20: DW_SAMPLE1.ipynb updated
+
+Author 21: Prof - Commit 21: python file uploaded successfully
+
+Author 22: BerlinA-B - Commit 22: tokenized df analysis
+
+Author 23: BerlinA-B - Commit 23: added csv folder and supply df visuals and analysis
+
+Author 24: BerlinA-B - Commit 24: added csv folder and visuals for tokenized _df visuals
+
+Author 25: Shubham Patil - Commit 25: DataCo_Supply_Chain_Analytics.ipynb added
+
+Author 26: Shubham Patil - Commit 26: files updated
+
+Author 27: github-classroom[bot] - Commit 27: Setting up GitHub Classroom Feedback
+Author 28: github-classroom[bot] - Commit 28: GitHub Classroom Feedback
+Author 29: github-classroom[bot] - Commit 29: Initial commit</code></pre>
+</div>
+</div>
 
 
 
