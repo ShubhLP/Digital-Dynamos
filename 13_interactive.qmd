@@ -18,5 +18,6 @@ Describe your contributions below.
 
 Interactive widget was created in which users can use a slider to displays all rows in the DataFrame where the value in the selected column is greater than the threshold
 
-The visuals are in DW_SAMPLE1.ipynb
+The visuals are in Final_Project.ipynb
 * * *
+
