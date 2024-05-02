@@ -454,14 +454,14 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 
 
 <p>Mehak Malik</p>
-<div id="cell-1" class="cell" data-execution_count="26">
+<div id="cell-1" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import the libraries</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> ipywidgets <span class="im">as</span> widgets</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-2" class="cell" data-execution_count="5">
+<div id="cell-2" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df_orders <span class="op">=</span> pd.read_csv(<span class="st">'csv/orders_and_shipments.csv'</span>,encoding<span class="op">=</span><span class="st">'ISO-8859-1'</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df_inventory <span class="op">=</span> pd.read_csv(<span class="st">'csv/inventory.csv'</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df_fulfillment <span class="op">=</span> pd.read_csv(<span class="st">'csv/fulfillment.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -532,7 +532,7 @@ dtypes: float64(1), object(1)
 memory usage: 2.0+ KB</code></pre>
 </div>
 </div>
-<div id="cell-6" class="cell" data-execution_count="29">
+<div id="cell-6" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>merged_df <span class="op">=</span> pd.merge(df_orders, df_inventory, on<span class="op">=</span><span class="st">'Product Name'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
@@ -578,7 +578,7 @@ dtypes: float64(2), int64(16), object(10)
 memory usage: 237.1+ MB</code></pre>
 </div>
 </div>
-<div id="cell-8" class="cell" data-execution_count="30">
+<div id="cell-8" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> merged_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -614,36 +614,36 @@ memory usage: 237.1+ MB</code></pre>
 <div id="cell-12" class="cell" data-outputid="b2869d80-1ec9-4531-ef90-af115a6d1c0e" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Discount %'</span>].sample(<span class="dv">30</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="12">
-<pre><code>359293       0.2
-923988      0.07
-52431       0.03
-809503       0.2
-29525       0.07
-544522      0.05
-952100       -  
-560187      0.18
-223689      0.17
-884028       -  
-261321      0.12
-432968      0.06
-551368       -  
-1092286     0.04
-1035744     0.13
-488794      0.15
-679029      0.03
-225751       0.2
-1005112     0.01
-505525      0.18
-819563      0.13
-299778      0.15
-839441      0.03
-521435       0.1
-958351      0.09
-526306      0.02
-514781      0.12
-960825       -  
-119934      0.12
-821055      0.01
+<pre><code>228693      0.15
+287609      0.15
+492659      0.15
+919978      0.06
+672973      0.09
+906805      0.05
+991450      0.18
+560623      0.06
+968952      0.04
+1066410     0.13
+369389      0.12
+757462      0.01
+65092       0.15
+194391      0.17
+637387      0.02
+511611      0.18
+316127      0.09
+183210       0.1
+30925       0.13
+414809      0.13
+249766      0.16
+901481      0.01
+101337      0.17
+765         0.15
+1091234     0.03
+1074653      -  
+617702      0.04
+795380      0.15
+11088       0.06
+171807      0.17
 Name: Discount %, dtype: object</code></pre>
 </div>
 </div>
@@ -819,124 +819,124 @@ Name: Discount %, dtype: object</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">64844</td>
-<td>47655</td>
-<td>119156</td>
-<td>201611</td>
+<td data-quarto-table-cell-role="th">235030</td>
+<td>57533</td>
+<td>143937</td>
+<td>201704</td>
 <td>1</td>
 <td>Fan Shop</td>
-<td>Fishing</td>
-<td>Field &amp; Stream Sportsman 16 Gun Fire Safe</td>
-<td>9500</td>
-<td>Africa</td>
-<td>North Africa</td>
-<td>...</td>
-<td>400</td>
-<td>0.02</td>
-<td>200</td>
-<td>201704</td>
-<td>8</td>
-<td>2.18091</td>
-<td>4.9</td>
-<td>2016-11-26 15:19:00</td>
-<td>2016-12-02</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">652458</td>
-<td>59666</td>
-<td>149321</td>
-<td>201701</td>
-<td>4</td>
-<td>Golf</td>
-<td>Women's Apparel</td>
-<td>Nike Men's Dri-FIT Victory Golf Polo</td>
-<td>4749</td>
+<td>Camping &amp; Hiking</td>
+<td>Diamondback Women's Serene Classic Comfort Bi</td>
+<td>12017</td>
 <td>LATAM</td>
-<td>South America</td>
+<td>Central America</td>
 <td>...</td>
-<td>200</td>
-<td>0.20</td>
-<td>125</td>
-<td>201705</td>
-<td>618</td>
-<td>1.72087</td>
-<td>6.6</td>
-<td>2017-01-08 15:05:00</td>
-<td>2017-01-10</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">664821</td>
-<td>47883</td>
-<td>119742</td>
-<td>201611</td>
-<td>3</td>
-<td>Golf</td>
-<td>Women's Apparel</td>
-<td>Nike Men's Dri-FIT Victory Golf Polo</td>
-<td>9489</td>
-<td>Africa</td>
-<td>Central Africa</td>
-<td>...</td>
+<td>300</td>
+<td>0.09</td>
 <td>150</td>
-<td>0.02</td>
-<td>125</td>
 <td>201602</td>
-<td>11</td>
-<td>1.94130</td>
-<td>6.6</td>
-<td>2016-11-29 23:11:00</td>
-<td>2016-12-01</td>
+<td>90</td>
+<td>1.95824</td>
+<td>6.9</td>
+<td>2017-04-19 20:01:00</td>
+<td>2017-04-21</td>
 <td>1</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">958797</td>
-<td>27828</td>
-<td>69664</td>
-<td>201512</td>
+<td data-quarto-table-cell-role="th">902402</td>
+<td>67668</td>
+<td>169184</td>
+<td>201709</td>
 <td>1</td>
 <td>Apparel</td>
 <td>Men's Footwear</td>
 <td>Nike Men's CJ Elite 2 TD Football Cleat</td>
-<td>1131</td>
-<td>Pacific Asia</td>
-<td>Southeast Asia</td>
+<td>8375</td>
+<td>Europe</td>
+<td>Southern Europe</td>
 <td>...</td>
 <td>130</td>
-<td>0.16</td>
+<td>0.06</td>
 <td>65</td>
-<td>201503</td>
-<td>169</td>
-<td>2.20751</td>
+<td>201610</td>
+<td>182</td>
+<td>0.77670</td>
 <td>7.0</td>
-<td>2015-12-27 13:30:00</td>
-<td>2015-12-31</td>
-<td>3</td>
+<td>2017-09-14 18:45:00</td>
+<td>2017-09-25</td>
+<td>10</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">404980</td>
-<td>39046</td>
-<td>97460</td>
-<td>201607</td>
+<td data-quarto-table-cell-role="th">506777</td>
+<td>2566</td>
+<td>6417</td>
+<td>201502</td>
 <td>5</td>
-<td>Fan Shop</td>
-<td>Indoor/Outdoor Games</td>
-<td>O'Brien Men's Neoprene Life Vest</td>
-<td>4366</td>
-<td>North America</td>
-<td>South of USA</td>
+<td>Footwear</td>
+<td>Cardio Equipment</td>
+<td>Nike Men's Free 5.0+ Running Shoe</td>
+<td>10398</td>
+<td>LATAM</td>
+<td>South America</td>
 <td>...</td>
-<td>250</td>
-<td>0.02</td>
-<td>125</td>
+<td>500</td>
+<td>0.12</td>
+<td>245</td>
+<td>201606</td>
+<td>307</td>
+<td>0.89084</td>
+<td>9.4</td>
+<td>2015-02-07 10:38:00</td>
+<td>2017-01-02</td>
+<td>694</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">834375</td>
+<td>23205</td>
+<td>58095</td>
+<td>201505</td>
+<td>4</td>
+<td>Apparel</td>
+<td>Cleats</td>
+<td>Perfect Fitness Perfect Rip Deck</td>
+<td>11167</td>
+<td>Pacific Asia</td>
+<td>Oceania</td>
+<td>...</td>
+<td>240</td>
+<td>0.20</td>
+<td>147</td>
 <td>201608</td>
-<td>528</td>
-<td>0.36478</td>
-<td>5.5</td>
-<td>2016-07-23 23:12:00</td>
-<td>2016-07-25</td>
+<td>931</td>
+<td>1.86713</td>
+<td>8.3</td>
+<td>2015-05-06 21:01:00</td>
+<td>2015-05-11</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">1006349</td>
+<td>61298</td>
+<td>153345</td>
+<td>201708</td>
 <td>1</td>
+<td>Apparel</td>
+<td>Men's Footwear</td>
+<td>Nike Men's CJ Elite 2 TD Football Cleat</td>
+<td>4061</td>
+<td>LATAM</td>
+<td>South America</td>
+<td>...</td>
+<td>130</td>
+<td>0.15</td>
+<td>65</td>
+<td>201507</td>
+<td>216</td>
+<td>0.85246</td>
+<td>7.0</td>
+<td>2017-08-08 00:04:00</td>
+<td>2017-08-14</td>
+<td>5</td>
 </tr>
 </tbody>
 </table>
@@ -1767,6 +1767,55 @@ max    201712.000000             931.000000                 2.345030</code></pre
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"551213bec2374acdb1184009366613d7","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
 </script>
+</div>
+</div>
+<div id="cell-54" class="cell" data-execution_count="22">
+<div class="sourceCode cell-code" id="cb75"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary libraries</span></span>
+<span id="cb75-2"><a href="#cb75-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb75-3"><a href="#cb75-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb75-4"><a href="#cb75-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb75-5"><a href="#cb75-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="cell-55" class="cell" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb76"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the dataset</span></span>
+<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.copy()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="cell-56" class="cell" data-execution_count="24">
+<div class="sourceCode cell-code" id="cb77"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Data Preprocessing</span></span>
+<span id="cb77-2"><a href="#cb77-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop irrelevant columns if any</span></span>
+<span id="cb77-3"><a href="#cb77-3" aria-hidden="true" tabindex="-1"></a>df.drop([<span class="st">'Order ID'</span>, <span class="st">'Order Item ID'</span>, <span class="st">'Customer ID'</span>, <span class="st">'Order Datetime'</span>, <span class="st">'Shipment Datetime'</span>], axis<span class="op">=</span><span class="dv">1</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb77-4"><a href="#cb77-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb77-5"><a href="#cb77-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Handle missing values if any</span></span>
+<span id="cb77-6"><a href="#cb77-6" aria-hidden="true" tabindex="-1"></a>df.fillna(<span class="dv">0</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="cell-57" class="cell" data-execution_count="25">
+<div class="sourceCode cell-code" id="cb78"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Encode categorical variables</span></span>
+<span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.get_dummies(df)</span>
+<span id="cb78-3"><a href="#cb78-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-4"><a href="#cb78-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data into features and target variable</span></span>
+<span id="cb78-5"><a href="#cb78-5" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop([<span class="st">'Profit'</span>], axis<span class="op">=</span><span class="dv">1</span>)  <span class="co"># Assuming we want to predict Profit</span></span>
+<span id="cb78-6"><a href="#cb78-6" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">'Profit'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="cell-58" class="cell" data-execution_count="26">
+<div class="sourceCode cell-code" id="cb79"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Split data into train and test sets</span></span>
+<span id="cb79-2"><a href="#cb79-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb79-3"><a href="#cb79-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb79-4"><a href="#cb79-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Model Selection</span></span>
+<span id="cb79-5"><a href="#cb79-5" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb79-6"><a href="#cb79-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb79-7"><a href="#cb79-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Model Training</span></span>
+<span id="cb79-8"><a href="#cb79-8" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="26">
+<style>#sk-container-id-1 {color: black;background-color: white;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LinearRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br>On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden=""><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked=""><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">LinearRegression</label><div class="sk-toggleable__content"><pre>LinearRegression()</pre></div></div></div></div></div>
+</div>
+</div>
+<div id="cell-59" class="cell" data-execution_count="27">
+<div class="sourceCode cell-code" id="cb80"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Model Evaluation</span></span>
+<span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb80-3"><a href="#cb80-3" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, predictions)</span>
+<span id="cb80-4"><a href="#cb80-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Mean Squared Error:"</span>, mse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Mean Squared Error: 1.0120734857393116e-23</code></pre>
 </div>
 </div>
 
