@@ -15,6 +15,12 @@ jupyter:
 
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#store-your-data-in-at-least-3-different-formats-e.g.-sqlite3-csv-excel>.
 
-Describe your contributions below.
+The pandas dataframe was converted ans saved in 3 formats :
 
+We saved the dataframe to csv by using to_csv function and the file was saved as SCA.csv
+
+We saved the dataframe to excel by using to_excel function and the file was saved as SCA.xlsx
+
+We saved the dataframe to JSON file by using to_json function and the file was saved as SCA.json
 * * *
+
