@@ -16,7 +16,7 @@ jupyter:
 <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-analysis>
 Describe your contributions below.
 
-Seaborn and Kmeans were used to make predicitive analysis and visulatization with the dataset.
+Sklearn library was used to fit a linear regression to predict the profit based on the other available features in the dataset. These features might include things like "Order Quantity", "Gross Sales", "Discount %"
 
 Calculations can be found in DW_SAMPLE1.ipynb
 * * *
