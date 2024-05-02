@@ -23,8 +23,8 @@ import matplotlib.pyplot as plt
 from git import Repo
 import collections
 
-repo = Repo("/Users/shubham/Documents/Rutgers University/MS in Data Science/Spring 2024/Data Wrangling/Project/Digital-Dynamos")
-
+#repo = Repo("/Users/shubham/Documents/Rutgers University/MS in Data Science/Spring 2024/Data Wrangling/Project/Digital-Dynamos")
+repo = Repo("C:/Users/runad/Downloads/Digital-Dynamos")
 commits = list(repo.iter_commits('main'))
 
 commit_counts = collections.Counter(commit.author.name for commit in commits)
