@@ -1,7 +1,13 @@
-Use this repository to describe your project contributions.
+Hi All!
 
-You may add to this repository all notebooks, python files used throughout your project. You may also add additional qmd files, and add links to those new quarto webpages in the ``navbar`` section of ``_quarto.yml``.
+This project revolves around the need for data analysis in Supply Chain. There are many loopholes in the supply chain process and we took csv files such as products, orders, shipments and fulfilment and checked the process a company undergoes.
 
-Publish this website with your contributions on github pages using ``quarto publish``, so that the instructor and TAs can easily check your work.
+We came across results such as the most used mode of payment by the buyers were Debit. There was lack of inventory management in the company's process and not only constrained to flaws in inventory management, we saw that the delivery methods and most of the orders were delayed by the company.
 
-The jupyter notebook file for the project is called "DW_SAMPLE1.ipynb".
+Mehak and Shubham contributed to the data analysis of the project while Burlyn contributed to the poster presentation of the project.
+
+The jupyter notebook file for the project is called "Final_Project.ipynb".
+
+```python
+
+```
