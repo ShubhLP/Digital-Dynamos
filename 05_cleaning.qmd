@@ -17,5 +17,19 @@ About this site
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#data-cleaning>. 
 Describe your contributions below.
 
-The dataset was cleaned by handling missing values in the dataset, if found. Unwanted characters were removed in the column headings, if found.
+The dataset was checked for missing and duplicate values. Both the functionalities were checked by performing if-else conditions.The column names were also corrected by removing the unnecessary spaces in the column so that the user can do the analysis easily.
+
+We converted the '-' values to 0 in the 'Discount %' column and then change the data type from object to float.
+
+We made new columns: Order Datetime and Shipment Datetime, Order Processing Time.
+
+We made a new column of Total Cost of Inventory is a significant financial metric in supply chain management that calculates the overall cost associated with holding and managing inventory.
+
+We made a new column of Profit Margin helps to assessing the profitability of the supply chain operations. It provides insights into the effectiveness of cost control and pricing strategies, enabling organizations to make adjustments to enhance overall profitability.
+
+
+
+we also checked for unique customer countries.
+We dropped columns that were not necessary for our calculations.
 * * *
+
