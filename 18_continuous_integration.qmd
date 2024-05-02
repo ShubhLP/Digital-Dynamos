@@ -5,4 +5,5 @@ title: "18: cont. integration"
 <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#continuous-integration>.
 Describe your contributions below.
 
+We created publishing-notebooks.yml to convert .ipynb files into html. Also, to regenerate the plots, we created a file called regenerate_figures.py, that regenerates plots from Final_Project.ipynb
 * * *
