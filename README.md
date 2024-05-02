@@ -6,6 +6,8 @@ We came across results such as the most used mode of payment by the buyers were 
 
 Mehak and Shubham contributed to the data analysis of the project while Burlyn contributed to the poster presentation of the project.
 
+The commits made by Mehak were directed to Prof's name, after fixing the issue, last few commits were directed to her name
+
 The jupyter notebook file for the project is called "Final_Project.ipynb".
 
 ```python
