@@ -383,13 +383,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p>See <a href="https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#clear-commit-history" class="uri">https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#clear-commit-history</a>. Describe your contributions below.</p>
 <hr>
-<div id="3f384309" class="cell" data-execution_count="1">
+<div id="2308553d" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> git <span class="im">import</span> Repo</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> collections</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>repo <span class="op">=</span> Repo(<span class="st">"C:/Users/runad/Downloads/Digital-Dynamos"</span>)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#repo = Repo("/Users/shubham/Documents/Rutgers University/MS in Data Science/Spring 2024/Data Wrangling/Project/Digital-Dynamos")</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>repo <span class="op">=</span> Repo(<span class="st">"C:/Users/runad/Downloads/Digital-Dynamos"</span>)</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>commits <span class="op">=</span> <span class="bu">list</span>(repo.iter_commits(<span class="st">'main'</span>))</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>commit_counts <span class="op">=</span> collections.Counter(commit.author.name <span class="cf">for</span> commit <span class="kw">in</span> commits)</span>
@@ -406,12 +406,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="15_commit_files/figure-html/cell-2-output-1.png" width="597" height="576" class="figure-img"></p>
+<p><img src="15_commit_files/figure-html/cell-2-output-1.png" width="585" height="576" class="figure-img"></p>
 </figure>
 </div>
 </div>
 </div>
-<div id="6ecce2f3" class="cell" data-execution_count="2">
+<div id="d61d3f63" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.dates <span class="im">as</span> mdates</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>repo <span class="op">=</span> Repo(<span class="st">"C:/Users/runad/Downloads/Digital-Dynamos"</span>)</span>
@@ -453,61 +453,105 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Author 1: BerlinA-B - Commit 1: added another commit graph to page 15
+<pre><code>Author 1: BerlinA-B - Commit 1: change repo directory to my local machine
 
-Author 2: BerlinA-B - Commit 2: update page 20
+Author 2: BerlinA-B - Commit 2: change repo directory to my local machine
 
-Author 3: BerlinA-B - Commit 3: update page 15
+Author 3: ShubhLP - Commit 3: Update 15_commit.qmd
+Author 4: ShubhLP - Commit 4: Rename Fabletics_Supply_Chain_Analytics.ipynb
+Author 5: Shubham Patil - Commit 5: 14_poster.qmd updated
 
-Author 4: BerlinA-B - Commit 4: update page 13
+Author 6: Shubham Patil - Commit 6: 16_tests.qmd updated
 
-Author 5: BerlinA-B - Commit 5: update page 12
+Author 7: Shubham Patil - Commit 7: tests_linear_regression_model.py added
 
-Author 6: BerlinA-B - Commit 6: update page 11
+Author 8: Shubham Patil - Commit 8: DW_SAMPLE1.ipynb updated
 
-Author 7: BerlinA-B - Commit 7: update page 10 and code was added to DW_SAMPLE1
+Author 9: Shubham Patil - Commit 9: 10_statistical_ML.qmd updated
 
-Author 8: BerlinA-B - Commit 8: update page 9
+Author 10: Prof - Commit 10: page 3 final
 
-Author 9: BerlinA-B - Commit 9: update page 6
+Author 11: Prof - Commit 11: poster link updated
 
-Author 10: BerlinA-B - Commit 10: update page 5
+Author 12: Prof - Commit 12: updated readme
 
-Author 11: BerlinA-B - Commit 11: update page 4
+Author 13: Prof - Commit 13: updated page 9
 
-Author 12: BerlinA-B - Commit 12: added DW_SAMPLE1.ipynb to main folder
+Author 14: Prof - Commit 14: updated page 11
 
-Author 13: BerlinA-B - Commit 13: update page 3 and updated readme
+Author 15: Prof - Commit 15: updated page 13
 
-Author 14: BerlinA-B - Commit 14: update page 2
+Author 16: Prof - Commit 16: final_project updated
 
-Author 15: BerlinA-B - Commit 15: update page 1
+Author 17: Prof - Commit 17: page 8 updated
 
-Author 16: BerlinA-B - Commit 16: cover date column in tokenized df to datetime
+Author 18: Prof - Commit 18: page 7 updated
 
-Author 17: BerlinA-B - Commit 17: removed visual #7
+Author 19: Prof - Commit 19: updated page 5
 
-Author 18: Shubham Patil - Commit 18: DataCo_Supply_Chain_Analytics.ipynb updated
+Author 20: Prof - Commit 20: updated page 4
 
-Author 19: Prof - Commit 19: covid substitue project idea
+Author 21: Prof - Commit 21: updated changes to page 4
 
-Author 20: Shubham Patil - Commit 20: DW_SAMPLE1.ipynb updated
+Author 22: Prof - Commit 22: updated new changes to page 3
 
-Author 21: Prof - Commit 21: python file uploaded successfully
+Author 23: Prof - Commit 23: updates new changes to page 2
 
-Author 22: BerlinA-B - Commit 22: tokenized df analysis
+Author 24: BerlinA-B - Commit 24: added another commit graph to page 15
 
-Author 23: BerlinA-B - Commit 23: added csv folder and supply df visuals and analysis
+Author 25: BerlinA-B - Commit 25: update page 20
 
-Author 24: BerlinA-B - Commit 24: added csv folder and visuals for tokenized _df visuals
+Author 26: BerlinA-B - Commit 26: update page 15
 
-Author 25: Shubham Patil - Commit 25: DataCo_Supply_Chain_Analytics.ipynb added
+Author 27: BerlinA-B - Commit 27: update page 13
 
-Author 26: Shubham Patil - Commit 26: files updated
+Author 28: BerlinA-B - Commit 28: update page 12
 
-Author 27: github-classroom[bot] - Commit 27: Setting up GitHub Classroom Feedback
-Author 28: github-classroom[bot] - Commit 28: GitHub Classroom Feedback
-Author 29: github-classroom[bot] - Commit 29: Initial commit</code></pre>
+Author 29: BerlinA-B - Commit 29: update page 11
+
+Author 30: BerlinA-B - Commit 30: update page 10 and code was added to DW_SAMPLE1
+
+Author 31: BerlinA-B - Commit 31: update page 9
+
+Author 32: BerlinA-B - Commit 32: update page 6
+
+Author 33: BerlinA-B - Commit 33: update page 5
+
+Author 34: BerlinA-B - Commit 34: update page 4
+
+Author 35: BerlinA-B - Commit 35: added DW_SAMPLE1.ipynb to main folder
+
+Author 36: BerlinA-B - Commit 36: update page 3 and updated readme
+
+Author 37: BerlinA-B - Commit 37: update page 2
+
+Author 38: BerlinA-B - Commit 38: update page 1
+
+Author 39: BerlinA-B - Commit 39: cover date column in tokenized df to datetime
+
+Author 40: BerlinA-B - Commit 40: removed visual #7
+
+Author 41: Shubham Patil - Commit 41: DataCo_Supply_Chain_Analytics.ipynb updated
+
+Author 42: Prof - Commit 42: covid substitue project idea
+
+Author 43: Shubham Patil - Commit 43: DW_SAMPLE1.ipynb updated
+
+Author 44: Prof - Commit 44: python file uploaded successfully
+
+Author 45: BerlinA-B - Commit 45: tokenized df analysis
+
+Author 46: BerlinA-B - Commit 46: added csv folder and supply df visuals and analysis
+
+Author 47: BerlinA-B - Commit 47: added csv folder and visuals for tokenized _df visuals
+
+Author 48: Shubham Patil - Commit 48: DataCo_Supply_Chain_Analytics.ipynb added
+
+Author 49: Shubham Patil - Commit 49: files updated
+
+Author 50: github-classroom[bot] - Commit 50: Setting up GitHub Classroom Feedback
+Author 51: github-classroom[bot] - Commit 51: GitHub Classroom Feedback
+Author 52: github-classroom[bot] - Commit 52: Initial commit</code></pre>
 </div>
 </div>
 
