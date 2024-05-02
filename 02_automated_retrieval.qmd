@@ -18,3 +18,6 @@ Describe your contributions below.
 
 The data source is Kaggle (https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis?select=DataCoSupplyChainDataset.csv). 
 * * *
+
+The data was uploaded in csv format in the python file and then the csv file was read. After reading the csv file, a dataframe was created.
+
