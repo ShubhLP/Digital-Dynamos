@@ -16,5 +16,6 @@ jupyter:
 <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#around-4-6-or-more-visualizations-related-to-the-dataset>
 Describe your contributions below.
 
-The visuals and comments are found in DW_SAMPLE1.ipynb
+The visuals and comments are found in Final_Project.ipynb
 * * *
+
