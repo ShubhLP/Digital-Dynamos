@@ -15,6 +15,6 @@ jupyter:
 
 See <https://bellecp.github.io/597-Data-Wrangling-Spring-2024/project.html#poster>.
 
-https://www.canva.com/design/DAGDnZuanP8/5TL1108iAXCrNTTUggzSzA/view
+https://www.canva.com/design/DAGDnZuanP8/5TL1108iAXCrNTTUggzSzA/edit
 * * *
 
