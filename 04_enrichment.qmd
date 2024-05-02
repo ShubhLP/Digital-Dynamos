@@ -19,5 +19,8 @@ Describe your contributions below.
 Efforts were made to scrape the data from the website. However, due to security reasons, the company does not allow to scrape the data. To combat this issue, necessary csv files were downloaded from the site and loaded into jupyter notebook via Python dataframes. Calculative columns wered added to the dataframe.
 
 An inner join was performed on the dataset to get all the rows with common values.
+
+Group by was performed when creating visualisation.
+Aggregation operation such as calculation of mean, sorting values was done.
 * * *
 
