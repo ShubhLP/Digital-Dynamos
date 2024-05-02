@@ -18,5 +18,6 @@ Describe your contributions below.
 
 Sklearn library was used to fit a linear regression to predict the profit based on the other available features in the dataset. These features might include things like "Order Quantity", "Gross Sales", "Discount %"
 
-Calculations can be found in DW_SAMPLE1.ipynb
+Calculations can be found in Final_Proejct.ipynb
 * * *
+
