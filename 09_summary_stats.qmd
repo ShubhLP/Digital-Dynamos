@@ -19,5 +19,6 @@ Describe your contributions below.
 The mean, median and percentage of profit, costs of the product were calculated. In addition, the discount percentage of the products was calculated. This was done to get a better understanding of the data and help with brainstorming what questions can be answered by the dataset.
 
 
-Calculations can be found in DW_SAMPLE1.ipynb
+Calculations can be found in Final_Project.ipynb
 * * *
+
