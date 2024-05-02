@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 from git import Repo
 import collections
 
-repo = Repo("C:/Users/runad/Downloads/Digital-Dynamos")
+repo = Repo("/Users/shubham/Documents/Rutgers University/MS in Data Science/Spring 2024/Data Wrangling/Project/Digital-Dynamos")
 
 commits = list(repo.iter_commits('main'))
 
